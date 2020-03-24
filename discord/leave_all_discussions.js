@@ -5,7 +5,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-var closeButtons = document.getElementsByClassName("close");
+var closeButtons = document.getElementsByClassName("closeButton-2GCmT5");
 for(var i = 0; i < closeButtons.length; i++)
 {
    closeButtons.item(i).click()
